@@ -1,0 +1,8 @@
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/CMakeFiles/RAC.dir
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/CMakeFiles/edit_cache.dir
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/CMakeFiles/rebuild_cache.dir
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/src/CMakeFiles/points.dir
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/src/CMakeFiles/vectors.dir
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/src/CMakeFiles/transforms.dir
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/src/CMakeFiles/edit_cache.dir
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/src/CMakeFiles/rebuild_cache.dir

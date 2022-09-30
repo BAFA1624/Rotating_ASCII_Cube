@@ -1,0 +1,1 @@
+/usr/bin/gcc -Wall -Wextra -pedantic -Werror -O3 -rdynamic CMakeFiles/RAC.dir/src/main.c.o -o RAC  src/libpoints.a src/libvectors.a src/libtransforms.a -lm 

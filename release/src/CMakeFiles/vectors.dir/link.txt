@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvectors.a CMakeFiles/vectors.dir/vector.c.o
+/usr/bin/ranlib libvectors.a
