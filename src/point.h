@@ -21,4 +21,7 @@ float distance_f(const point_f_t* const a, const point_f_t* const b);
 void print_point(const point_t* const p);
 void print_point_f(const point_f_t* const p);
 
+void set_point(point_t* const p, const double x, const double y, const double z);
+void set_point_f(point_f_t* const p, const float x, const float y, const float z);
+
 #endif

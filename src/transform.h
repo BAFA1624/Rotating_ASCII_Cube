@@ -14,11 +14,27 @@
 #    define M_2_PI (2 / M_PI)
 #endif
 
-void rotate_x(point_t* const p, const double theta); // Rotate around the x-axis
-void rotate_y(point_t* const p, const double theta); // Rotate around the y-axis
-void rotate_z(point_t* const p, const double theta); // Rotate around the z-axis
+point_t rotate_x(const point_t* const p, const double theta); // Rotate around the x-axis
+point_t rotate_y(const point_t* const p, const double theta); // Rotate around the y-axis
+point_t rotate_z(const point_t* const p, const double theta); // Rotate around the z-axis
+void i_rotate_x(point_t* const p, const double theta); // Rotate around the x-axis
+void i_rotate_y(point_t* const p, const double theta); // Rotate around the y-axis
+void i_rotate_z(point_t* const p, const double theta); // Rotate around the z-axis
+
+point_f_t rotate_f_x(const point_f_t* const p, const float theta); // Rotate around the x-axis
+point_f_t rotate_f_y(const point_f_t* const p, const float theta); // Rotate around the y-axis
+point_f_t rotate_f_z(const point_f_t* const p, const float theta); // Rotate around the z-axis
+void i_rotate_f_x(point_f_t* const p, const float theta); // Rotate around the x-axis
+void i_rotate_f_y(point_f_t* const p, const float theta); // Rotate around the y-axis
+void i_rotate_f_z(point_f_t* const p, const float theta); // Rotate around the z-axis
+
 // Apply general rotation
-void rotate(point_t* const p, const double Rx, const double Ry, const double Rz);
+point_t rotate(
+        const point_t* const p, const double Rx,
+        const double Ry, const double Rz);
+point_f_t rotate_f(
+        const point_f_t* const p, const float Rx,
+        const float Ry, const float Rz);
 
 //void translate(point_t* const p, const vector_t* const v);
 

@@ -27,89 +27,59 @@ src/CMakeFiles/transforms.dir/transform.c.o: /home/bena/Documents/gitrepos/Rotat
   /usr/include/bits/fp-logb.h \
   /usr/include/bits/fp-fast.h \
   /usr/include/bits/mathcalls-helper-functions.h \
-  /usr/include/bits/mathcalls.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/stdio_lim.h
+  /usr/include/bits/mathcalls.h
 
 
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.h:
-
-/usr/include/bits/time64.h:
-
-/usr/include/bits/fp-fast.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h:
-
-/usr/include/sys/cdefs.h:
-
-/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/bits/flt-eval-method.h:
-
-/usr/include/features.h:
-
-/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/bits/fp-logb.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/stdio.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/bits/mathcalls-helper-functions.h:
-
-/usr/include/math.h:
-
-/usr/include/bits/math-vector.h:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
-
-/usr/include/bits/floatn.h:
+/usr/include/bits/mathcalls.h:
 
 /usr/include/bits/floatn-common.h:
 
+/usr/include/bits/floatn.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/fp-logb.h:
+
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/stdc-predef.h:
+
 /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.h:
 
-/usr/include/bits/mathcalls.h:
+/usr/include/bits/fp-fast.h:
+
+/usr/include/bits/time64.h:
+
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/wordsize.h:
+
+/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c:
+
+/usr/include/sys/cdefs.h:

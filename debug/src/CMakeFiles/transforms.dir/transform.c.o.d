@@ -15,10 +15,4 @@ src/CMakeFiles/transforms.dir/transform.c.o: \
  /usr/include/bits/floatn-common.h /usr/include/bits/flt-eval-method.h \
  /usr/include/bits/fp-logb.h /usr/include/bits/fp-fast.h \
  /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
- /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
- /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/stdio_lim.h
+ /usr/include/bits/mathcalls.h

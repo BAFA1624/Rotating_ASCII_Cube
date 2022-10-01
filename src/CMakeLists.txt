@@ -1,6 +1,3 @@
 add_library(points point.c)
 add_library(vectors vector.c)
 add_library(transforms transform.c)
-#target_include_directories(transforms "${PROJECT_SOURCE_DIR}/includes")
-#target_include_directories(points "${PROJECT_SOURCE_DIR}/includes")
-#target_include_directories(vectors "${PROJECT_SOURCE_DIR}/includes")
