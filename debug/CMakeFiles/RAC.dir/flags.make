@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug -I/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/includes
 
-C_FLAGS = -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -std=gnu17
+C_FLAGS = -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -std=gnu17
 

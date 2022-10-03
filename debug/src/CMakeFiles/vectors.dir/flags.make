@@ -6,5 +6,5 @@ C_DEFINES = -Dvectors_EXPORTS
 
 C_INCLUDES = 
 
-C_FLAGS = -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fPIC -std=gnu17
+C_FLAGS = -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -fPIC -std=gnu17
 

@@ -60,15 +60,11 @@ int main() {
     // Clear screen
     printf("\x1b[2j");
 
-    point_t p = { 1, 0, 0 };
+    point_t p = { 0, 1, 1 };
 
     print_point(&p);
 
-    i_rotate_y(&p, M_PI_2);
-
-    print_point(&p);
-
-    i_rotate_y(&p, M_PI_2);
+    p = rotate_x(&p, M_PI_2);
 
     print_point(&p);
 

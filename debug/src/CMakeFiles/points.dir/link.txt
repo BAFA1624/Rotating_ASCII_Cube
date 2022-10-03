@@ -1,1 +1,1 @@
-/usr/bin/gcc -fPIC -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -shared -Wl,-soname,libpoints.so -o /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.so CMakeFiles/points.dir/point.c.o 
+/usr/bin/gcc -fPIC -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -shared -Wl,-soname,libpoints.so -o /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.so CMakeFiles/points.dir/point.c.o 
