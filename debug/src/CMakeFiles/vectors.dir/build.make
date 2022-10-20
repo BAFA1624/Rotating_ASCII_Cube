@@ -73,15 +73,15 @@ src/CMakeFiles/vectors.dir/vector.c.o: src/CMakeFiles/vectors.dir/flags.make
 src/CMakeFiles/vectors.dir/vector.c.o: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c
 src/CMakeFiles/vectors.dir/vector.c.o: src/CMakeFiles/vectors.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/vectors.dir/vector.c.o"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/vectors.dir/vector.c.o -MF CMakeFiles/vectors.dir/vector.c.o.d -o CMakeFiles/vectors.dir/vector.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/vectors.dir/vector.c.o -MF CMakeFiles/vectors.dir/vector.c.o.d -o CMakeFiles/vectors.dir/vector.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c
 
 src/CMakeFiles/vectors.dir/vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vectors.dir/vector.c.i"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c > CMakeFiles/vectors.dir/vector.c.i
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c > CMakeFiles/vectors.dir/vector.c.i
 
 src/CMakeFiles/vectors.dir/vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vectors.dir/vector.c.s"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c -o CMakeFiles/vectors.dir/vector.c.s
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c -o CMakeFiles/vectors.dir/vector.c.s
 
 # Object files for target vectors
 vectors_OBJECTS = \

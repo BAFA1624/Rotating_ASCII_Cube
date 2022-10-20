@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.pdb"
+  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.so"
   "CMakeFiles/vectors.dir/vector.c.o"
   "CMakeFiles/vectors.dir/vector.c.o.d"
-  "libvectors.a"
-  "libvectors.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

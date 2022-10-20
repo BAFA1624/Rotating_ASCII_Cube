@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.pdb"
+  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so"
   "CMakeFiles/transforms.dir/transform.c.o"
   "CMakeFiles/transforms.dir/transform.c.o.d"
-  "libtransforms.a"
-  "libtransforms.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

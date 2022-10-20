@@ -3,11 +3,14 @@ cmake_minimum_required(VERSION 3.2)
 project(Rotating_ASCII_Cube)
 
 # compiler
-set(CMAKE_C_COMPILER /usr/bin/gcc)
+#set(CMAKE_C_COMPILER /usr/bin/g++)
 
 # c17 standard
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED True)
+
+# Generate compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Debug & release flags
 set(CMAKE_C_FLAGS_DEBUG "-Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer")

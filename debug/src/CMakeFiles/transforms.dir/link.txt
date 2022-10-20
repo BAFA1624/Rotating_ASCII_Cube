@@ -1,1 +1,1 @@
-/usr/bin/gcc -fPIC -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -shared -Wl,-soname,libtransforms.so -o /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so CMakeFiles/transforms.dir/transform.c.o 
+/usr/bin/cc -fPIC -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -shared -Wl,-soname,libtransforms.so -o /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so CMakeFiles/transforms.dir/transform.c.o 

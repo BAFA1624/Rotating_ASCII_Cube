@@ -73,15 +73,15 @@ CMakeFiles/RAC.dir/src/main.c.o: CMakeFiles/RAC.dir/flags.make
 CMakeFiles/RAC.dir/src/main.c.o: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c
 CMakeFiles/RAC.dir/src/main.c.o: CMakeFiles/RAC.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RAC.dir/src/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RAC.dir/src/main.c.o -MF CMakeFiles/RAC.dir/src/main.c.o.d -o CMakeFiles/RAC.dir/src/main.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RAC.dir/src/main.c.o -MF CMakeFiles/RAC.dir/src/main.c.o.d -o CMakeFiles/RAC.dir/src/main.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c
 
 CMakeFiles/RAC.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RAC.dir/src/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c > CMakeFiles/RAC.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c > CMakeFiles/RAC.dir/src/main.c.i
 
 CMakeFiles/RAC.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RAC.dir/src/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c -o CMakeFiles/RAC.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c -o CMakeFiles/RAC.dir/src/main.c.s
 
 # Object files for target RAC
 RAC_OBJECTS = \
@@ -92,9 +92,9 @@ RAC_EXTERNAL_OBJECTS =
 
 RAC: CMakeFiles/RAC.dir/src/main.c.o
 RAC: CMakeFiles/RAC.dir/build.make
-RAC: src/libpoints.a
-RAC: src/libvectors.a
-RAC: src/libtransforms.a
+RAC: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.so
+RAC: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.so
+RAC: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so
 RAC: CMakeFiles/RAC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable RAC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RAC.dir/link.txt --verbose=$(VERBOSE)

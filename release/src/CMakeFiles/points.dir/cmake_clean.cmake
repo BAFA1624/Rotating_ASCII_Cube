@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.pdb"
+  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.so"
   "CMakeFiles/points.dir/point.c.o"
   "CMakeFiles/points.dir/point.c.o.d"
-  "libpoints.a"
-  "libpoints.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

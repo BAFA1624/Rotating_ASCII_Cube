@@ -1,22 +1,22 @@
 [
 {
   "directory": "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release",
-  "command": "/usr/bin/gcc  -I/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release -I/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/includes -Wall -Wextra -pedantic -Werror -O3 -std=gnu17 -o CMakeFiles/RAC.dir/src/main.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c",
+  "command": "/usr/bin/cc  -I/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release -I/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/includes -Wall -Wextra -pedantic -Werror -O3 -std=gnu17 -o CMakeFiles/RAC.dir/src/main.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c",
   "file": "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c"
 },
 {
   "directory": "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/src",
-  "command": "/usr/bin/gcc   -Wall -Wextra -pedantic -Werror -O3 -std=gnu17 -o CMakeFiles/points.dir/point.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c",
+  "command": "/usr/bin/cc -Dpoints_EXPORTS  -Wall -Wextra -pedantic -Werror -O3 -fPIC -std=gnu17 -o CMakeFiles/points.dir/point.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c",
   "file": "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c"
 },
 {
   "directory": "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/src",
-  "command": "/usr/bin/gcc   -Wall -Wextra -pedantic -Werror -O3 -std=gnu17 -o CMakeFiles/vectors.dir/vector.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c",
+  "command": "/usr/bin/cc -Dvectors_EXPORTS  -Wall -Wextra -pedantic -Werror -O3 -fPIC -std=gnu17 -o CMakeFiles/vectors.dir/vector.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c",
   "file": "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c"
 },
 {
   "directory": "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/release/src",
-  "command": "/usr/bin/gcc   -Wall -Wextra -pedantic -Werror -O3 -std=gnu17 -o CMakeFiles/transforms.dir/transform.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c",
+  "command": "/usr/bin/cc -Dtransforms_EXPORTS  -Wall -Wextra -pedantic -Werror -O3 -fPIC -std=gnu17 -o CMakeFiles/transforms.dir/transform.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c",
   "file": "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c"
 }
 ]

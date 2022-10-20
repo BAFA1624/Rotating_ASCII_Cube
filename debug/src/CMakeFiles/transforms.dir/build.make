@@ -73,15 +73,15 @@ src/CMakeFiles/transforms.dir/transform.c.o: src/CMakeFiles/transforms.dir/flags
 src/CMakeFiles/transforms.dir/transform.c.o: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c
 src/CMakeFiles/transforms.dir/transform.c.o: src/CMakeFiles/transforms.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/transforms.dir/transform.c.o"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/transforms.dir/transform.c.o -MF CMakeFiles/transforms.dir/transform.c.o.d -o CMakeFiles/transforms.dir/transform.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/transforms.dir/transform.c.o -MF CMakeFiles/transforms.dir/transform.c.o.d -o CMakeFiles/transforms.dir/transform.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c
 
 src/CMakeFiles/transforms.dir/transform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/transforms.dir/transform.c.i"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c > CMakeFiles/transforms.dir/transform.c.i
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c > CMakeFiles/transforms.dir/transform.c.i
 
 src/CMakeFiles/transforms.dir/transform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/transforms.dir/transform.c.s"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c -o CMakeFiles/transforms.dir/transform.c.s
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c -o CMakeFiles/transforms.dir/transform.c.s
 
 # Object files for target transforms
 transforms_OBJECTS = \

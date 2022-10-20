@@ -73,15 +73,15 @@ src/CMakeFiles/points.dir/point.c.o: src/CMakeFiles/points.dir/flags.make
 src/CMakeFiles/points.dir/point.c.o: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c
 src/CMakeFiles/points.dir/point.c.o: src/CMakeFiles/points.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/points.dir/point.c.o"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/points.dir/point.c.o -MF CMakeFiles/points.dir/point.c.o.d -o CMakeFiles/points.dir/point.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/points.dir/point.c.o -MF CMakeFiles/points.dir/point.c.o.d -o CMakeFiles/points.dir/point.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c
 
 src/CMakeFiles/points.dir/point.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/points.dir/point.c.i"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c > CMakeFiles/points.dir/point.c.i
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c > CMakeFiles/points.dir/point.c.i
 
 src/CMakeFiles/points.dir/point.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/points.dir/point.c.s"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c -o CMakeFiles/points.dir/point.c.s
+	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c -o CMakeFiles/points.dir/point.c.s
 
 # Object files for target points
 points_OBJECTS = \
