@@ -1,22 +1,22 @@
 [
 {
   "directory": "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug",
-  "command": "clang  -I/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/includes -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -o CMakeFiles/RAC.dir/src/main.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c",
+  "command": "clang  -I/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu17 -o CMakeFiles/RAC.dir/src/main.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c",
   "file": "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/main.c"
 },
 {
   "directory": "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src",
-  "command": "clang -Dpoints_EXPORTS  -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu17 -o CMakeFiles/points.dir/point.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c",
+  "command": "clang -Dpoints_EXPORTS -I/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu17 -o CMakeFiles/points.dir/point.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c",
   "file": "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c"
 },
 {
   "directory": "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src",
-  "command": "clang -Dvectors_EXPORTS  -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu17 -o CMakeFiles/vectors.dir/vector.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c",
+  "command": "clang -Dvectors_EXPORTS -I/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu17 -o CMakeFiles/vectors.dir/vector.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c",
   "file": "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.c"
 },
 {
   "directory": "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src",
-  "command": "clang -Dtransforms_EXPORTS  -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu17 -o CMakeFiles/transforms.dir/transform.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c",
+  "command": "clang -Dtransforms_EXPORTS -I/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu17 -o CMakeFiles/transforms.dir/transform.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c",
   "file": "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c"
 }
 ]

@@ -31,7 +31,7 @@ add_executable(RAC src/main.c)
 target_link_libraries(RAC PUBLIC points vectors transforms)
 
 target_include_directories(RAC PUBLIC
-    "${PROJECT_SOURCE_DIR}/includes"
+    "${PROJECT_SOURCE_DIR}/include"
     )
 
 #"${PROJECT_BINARY_DIR}"

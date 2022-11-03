@@ -1,4 +1,7 @@
 add_library(points point.c)
 add_library(vectors vector.c)
 add_library(transforms transform.c)
+target_include_directories(points PRIVATE "${PROJECT_SOURCE_DIR}/include")
+target_include_directories(vectors PRIVATE "${PROJECT_SOURCE_DIR}/include")
+target_include_directories(transforms PRIVATE "${PROJECT_SOURCE_DIR}/include")
 target_link_libraries(transforms PUBLIC m)

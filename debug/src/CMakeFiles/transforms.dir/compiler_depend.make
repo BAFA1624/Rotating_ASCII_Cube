@@ -3,8 +3,8 @@
 
 src/CMakeFiles/transforms.dir/transform.c.o: /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/share/asan_ignorelist.txt \
-  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.h \
-  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/point.h \
+  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include/transform.h \
+  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include/point.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h \
@@ -12,29 +12,29 @@ src/CMakeFiles/transforms.dir/transform.c.o: /Users/ben/Documents/gitrepos/Rotat
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h \
-  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.h
+  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include/vector.h
 
-
-/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/Availability.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h:
+
+/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include/vector.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h:
 
-/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.h:
+/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include/point.h:
 
-/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/point.h:
+/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include/transform.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/share/asan_ignorelist.txt:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h:
 
 /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/share/asan_ignorelist.txt:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h:

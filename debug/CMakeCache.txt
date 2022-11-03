@@ -222,6 +222,9 @@ Rotating_ASCII_Cube_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Rotating_ASCII_Cube_SOURCE_DIR:STATIC=/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube
 
+//Dependencies for the target
+transforms_LIB_DEPENDS:STATIC=general;m;
+
 
 ########################
 # INTERNAL cache entries

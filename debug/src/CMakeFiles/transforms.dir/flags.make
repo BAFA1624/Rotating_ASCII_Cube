@@ -4,7 +4,7 @@
 # compile C with clang
 C_DEFINES = -Dtransforms_EXPORTS
 
-C_INCLUDES = 
+C_INCLUDES = -I/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/include
 
 C_FLAGSarm64 = -Wall -Wextra -pedantic -Werror -O0 -g -ggdb -fsanitize=address -fno-omit-frame-pointer -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu17
 
