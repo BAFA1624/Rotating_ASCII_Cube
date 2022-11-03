@@ -1,18 +1,13 @@
 src/CMakeFiles/transforms.dir/transform.c.o: \
- /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c \
- /usr/include/stdc-predef.h \
- /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.h \
- /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.h \
- /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.h \
- /usr/include/math.h /usr/include/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
- /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/bits/flt-eval-method.h \
- /usr/include/bits/fp-logb.h /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/share/asan_ignorelist.txt \
+  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c \
+  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.h \
+  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/point.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h \
+  /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/vector.h

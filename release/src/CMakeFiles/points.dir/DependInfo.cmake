@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c" "src/CMakeFiles/points.dir/point.c.o" "gcc" "src/CMakeFiles/points.dir/point.c.o.d"
+  "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/point.c" "src/CMakeFiles/points.dir/point.c.o" "gcc" "src/CMakeFiles/points.dir/point.c.o.d"
   )
 
 # Targets to which this target links.

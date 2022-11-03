@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.pdb"
-  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.so"
+  "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.dylib"
+  "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.pdb"
   "CMakeFiles/vectors.dir/vector.c.o"
   "CMakeFiles/vectors.dir/vector.c.o.d"
 )

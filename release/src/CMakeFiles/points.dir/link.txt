@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -Wall -Wextra -pedantic -Werror -O3 -shared -Wl,-soname,libpoints.so -o /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.so CMakeFiles/points.dir/point.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -Wall -Wextra -pedantic -Werror -O3 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -dynamiclib -Wl,-headerpad_max_install_names -o /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.dylib -install_name @rpath/libpoints.dylib CMakeFiles/points.dir/point.c.o 

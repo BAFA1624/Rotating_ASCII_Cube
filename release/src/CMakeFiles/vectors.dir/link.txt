@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -Wall -Wextra -pedantic -Werror -O3 -shared -Wl,-soname,libvectors.so -o /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.so CMakeFiles/vectors.dir/vector.c.o 
+/Library/Developer/CommandLineTools/usr/bin/cc -Wall -Wextra -pedantic -Werror -O3 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -dynamiclib -Wl,-headerpad_max_install_names -o /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libvectors.dylib -install_name @rpath/libvectors.dylib CMakeFiles/vectors.dir/vector.c.o 

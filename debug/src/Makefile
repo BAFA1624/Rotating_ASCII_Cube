@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.24.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bena/Documents/gitrepos/Rotating_ASCII_Cube
+CMAKE_SOURCE_DIR = /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug
+CMAKE_BINARY_DIR = /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.24.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src//CMakeFiles/progress.marks
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles 0
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src//CMakeFiles/progress.marks
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/points.dir/rule:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/points.dir/rule
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/points.dir/rule
 .PHONY : src/CMakeFiles/points.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ points: src/CMakeFiles/points.dir/rule
 
 # fast build rule for target.
 points/fast:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/points.dir/build.make src/CMakeFiles/points.dir/build
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/points.dir/build.make src/CMakeFiles/points.dir/build
 .PHONY : points/fast
 
 # Convenience name for target.
 src/CMakeFiles/vectors.dir/rule:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/vectors.dir/rule
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/vectors.dir/rule
 .PHONY : src/CMakeFiles/vectors.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ vectors: src/CMakeFiles/vectors.dir/rule
 
 # fast build rule for target.
 vectors/fast:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vectors.dir/build.make src/CMakeFiles/vectors.dir/build
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vectors.dir/build.make src/CMakeFiles/vectors.dir/build
 .PHONY : vectors/fast
 
 # Convenience name for target.
 src/CMakeFiles/transforms.dir/rule:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/transforms.dir/rule
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/transforms.dir/rule
 .PHONY : src/CMakeFiles/transforms.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ transforms: src/CMakeFiles/transforms.dir/rule
 
 # fast build rule for target.
 transforms/fast:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/transforms.dir/build.make src/CMakeFiles/transforms.dir/build
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/transforms.dir/build.make src/CMakeFiles/transforms.dir/build
 .PHONY : transforms/fast
 
 point.o: point.c.o
@@ -163,7 +163,7 @@ point.o: point.c.o
 
 # target to build an object file
 point.c.o:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/points.dir/build.make src/CMakeFiles/points.dir/point.c.o
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/points.dir/build.make src/CMakeFiles/points.dir/point.c.o
 .PHONY : point.c.o
 
 point.i: point.c.i
@@ -171,7 +171,7 @@ point.i: point.c.i
 
 # target to preprocess a source file
 point.c.i:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/points.dir/build.make src/CMakeFiles/points.dir/point.c.i
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/points.dir/build.make src/CMakeFiles/points.dir/point.c.i
 .PHONY : point.c.i
 
 point.s: point.c.s
@@ -179,7 +179,7 @@ point.s: point.c.s
 
 # target to generate assembly for a file
 point.c.s:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/points.dir/build.make src/CMakeFiles/points.dir/point.c.s
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/points.dir/build.make src/CMakeFiles/points.dir/point.c.s
 .PHONY : point.c.s
 
 transform.o: transform.c.o
@@ -187,7 +187,7 @@ transform.o: transform.c.o
 
 # target to build an object file
 transform.c.o:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/transforms.dir/build.make src/CMakeFiles/transforms.dir/transform.c.o
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/transforms.dir/build.make src/CMakeFiles/transforms.dir/transform.c.o
 .PHONY : transform.c.o
 
 transform.i: transform.c.i
@@ -195,7 +195,7 @@ transform.i: transform.c.i
 
 # target to preprocess a source file
 transform.c.i:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/transforms.dir/build.make src/CMakeFiles/transforms.dir/transform.c.i
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/transforms.dir/build.make src/CMakeFiles/transforms.dir/transform.c.i
 .PHONY : transform.c.i
 
 transform.s: transform.c.s
@@ -203,7 +203,7 @@ transform.s: transform.c.s
 
 # target to generate assembly for a file
 transform.c.s:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/transforms.dir/build.make src/CMakeFiles/transforms.dir/transform.c.s
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/transforms.dir/build.make src/CMakeFiles/transforms.dir/transform.c.s
 .PHONY : transform.c.s
 
 vector.o: vector.c.o
@@ -211,7 +211,7 @@ vector.o: vector.c.o
 
 # target to build an object file
 vector.c.o:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vectors.dir/build.make src/CMakeFiles/vectors.dir/vector.c.o
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vectors.dir/build.make src/CMakeFiles/vectors.dir/vector.c.o
 .PHONY : vector.c.o
 
 vector.i: vector.c.i
@@ -219,7 +219,7 @@ vector.i: vector.c.i
 
 # target to preprocess a source file
 vector.c.i:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vectors.dir/build.make src/CMakeFiles/vectors.dir/vector.c.i
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vectors.dir/build.make src/CMakeFiles/vectors.dir/vector.c.i
 .PHONY : vector.c.i
 
 vector.s: vector.c.s
@@ -227,7 +227,7 @@ vector.s: vector.c.s
 
 # target to generate assembly for a file
 vector.c.s:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vectors.dir/build.make src/CMakeFiles/vectors.dir/vector.c.s
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/vectors.dir/build.make src/CMakeFiles/vectors.dir/vector.c.s
 .PHONY : vector.c.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

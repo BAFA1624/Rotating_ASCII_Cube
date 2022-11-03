@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.2)
 project(Rotating_ASCII_Cube)
 
 # compiler
-#set(CMAKE_C_COMPILER /usr/bin/g++)
+set(CMAKE_C_COMPILER clang)
 
 # c17 standard
 set(CMAKE_C_STANDARD 17)
@@ -28,9 +28,10 @@ add_subdirectory(src)
 
 add_executable(RAC src/main.c)
 
-target_link_libraries(RAC PUBLIC points vectors transforms m)
+target_link_libraries(RAC PUBLIC points vectors transforms)
 
 target_include_directories(RAC PUBLIC
-    "${PROJECT_BINARY_DIR}"
     "${PROJECT_SOURCE_DIR}/includes"
-)
+    )
+
+#"${PROJECT_BINARY_DIR}"

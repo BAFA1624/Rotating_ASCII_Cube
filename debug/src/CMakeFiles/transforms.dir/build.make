@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.24.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.24.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bena/Documents/gitrepos/Rotating_ASCII_Cube
+CMAKE_SOURCE_DIR = /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug
+CMAKE_BINARY_DIR = /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/transforms.dir/depend.make
@@ -70,18 +70,18 @@ include src/CMakeFiles/transforms.dir/progress.make
 include src/CMakeFiles/transforms.dir/flags.make
 
 src/CMakeFiles/transforms.dir/transform.c.o: src/CMakeFiles/transforms.dir/flags.make
-src/CMakeFiles/transforms.dir/transform.c.o: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c
+src/CMakeFiles/transforms.dir/transform.c.o: /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c
 src/CMakeFiles/transforms.dir/transform.c.o: src/CMakeFiles/transforms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/transforms.dir/transform.c.o"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/transforms.dir/transform.c.o -MF CMakeFiles/transforms.dir/transform.c.o.d -o CMakeFiles/transforms.dir/transform.c.o -c /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/transforms.dir/transform.c.o"
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/transforms.dir/transform.c.o -MF CMakeFiles/transforms.dir/transform.c.o.d -o CMakeFiles/transforms.dir/transform.c.o -c /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c
 
 src/CMakeFiles/transforms.dir/transform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/transforms.dir/transform.c.i"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c > CMakeFiles/transforms.dir/transform.c.i
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c > CMakeFiles/transforms.dir/transform.c.i
 
 src/CMakeFiles/transforms.dir/transform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/transforms.dir/transform.c.s"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c -o CMakeFiles/transforms.dir/transform.c.s
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src/transform.c -o CMakeFiles/transforms.dir/transform.c.s
 
 # Object files for target transforms
 transforms_OBJECTS = \
@@ -90,21 +90,21 @@ transforms_OBJECTS = \
 # External object files for target transforms
 transforms_EXTERNAL_OBJECTS =
 
-/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so: src/CMakeFiles/transforms.dir/transform.c.o
-/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so: src/CMakeFiles/transforms.dir/build.make
-/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so: src/CMakeFiles/transforms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so"
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/transforms.dir/link.txt --verbose=$(VERBOSE)
+/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.dylib: src/CMakeFiles/transforms.dir/transform.c.o
+/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.dylib: src/CMakeFiles/transforms.dir/build.make
+/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.dylib: src/CMakeFiles/transforms.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.dylib"
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/transforms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/transforms.dir/build: /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.so
+src/CMakeFiles/transforms.dir/build: /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libtransforms.dylib
 .PHONY : src/CMakeFiles/transforms.dir/build
 
 src/CMakeFiles/transforms.dir/clean:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && $(CMAKE_COMMAND) -P CMakeFiles/transforms.dir/cmake_clean.cmake
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src && $(CMAKE_COMMAND) -P CMakeFiles/transforms.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/transforms.dir/clean
 
 src/CMakeFiles/transforms.dir/depend:
-	cd /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bena/Documents/gitrepos/Rotating_ASCII_Cube /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/src /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src /home/bena/Documents/gitrepos/Rotating_ASCII_Cube/debug/src/CMakeFiles/transforms.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/src /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src /Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/debug/src/CMakeFiles/transforms.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/transforms.dir/depend
 

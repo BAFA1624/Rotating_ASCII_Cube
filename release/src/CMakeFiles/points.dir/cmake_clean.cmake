@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.pdb"
-  "/home/bena/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.so"
+  "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.dylib"
+  "/Users/ben/Documents/gitrepos/Rotating_ASCII_Cube/libs/libpoints.pdb"
   "CMakeFiles/points.dir/point.c.o"
   "CMakeFiles/points.dir/point.c.o.d"
 )
